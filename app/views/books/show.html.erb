@@ -12,8 +12,8 @@
 
 <p>
   <b>Who owns a copy?</b>
-  <%= @book.users.map {|x| x.to_label}.join ', ' %>
-  <%=@book.testf%>
+  <%= @book.users.map {|x| x.to_label}.join( ', ') %>
+  
 </p>
 
 <%= link_to 'Edit', edit_book_path(@book) %> |

@@ -3,4 +3,6 @@ class Book < ActiveRecord::Base
 	def testf
 		return "hooloo"
 	end
+    
+	
 end
